@@ -19,7 +19,6 @@ turtle.left(90)
 turtle.forward(200)
 turtle.end_fill()
 
-# Cambia el color del centro del girasol a café más claro (RGB: 139, 69, 19)
 turtle.penup()
 turtle.goto(0, -180)
 turtle.fillcolor("#8B4513")  
@@ -56,6 +55,7 @@ for i in range(160 + 40):
 turtle.penup()
 turtle.goto(0, 100)  
 turtle.color("white")  
+# pueden cambiar el texto si quieren
 turtle.write("Te Quiero", align="center", font=("Arial", 24, "bold"))
 
 turtle.hideturtle()
